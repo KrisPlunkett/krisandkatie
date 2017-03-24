@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Ceremony
-permalink: /ceremony/
+title: Venue
+permalink: /venue/
 ---
 
 All about the ceremony and stuff

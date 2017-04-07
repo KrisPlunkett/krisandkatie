@@ -1,45 +1,26 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    <div>
+{% include header.html %}
 
-      <header class="clearfix">
-
-        <div id="crest-container" class="left absolute-lg left-0 top-0 hide-sm">
-          <img class="col-3 px-2 mt-2" alt="KK Crest" src="{{ "/assets/crest.png" | prepend: full_base_url }}">
-        </div>
-
-        <div class="right absolute-lg right-0 top-0">
-          <ul class="mt-2 mr-2 mr-lg-3">
-            {% assign sorted_pages = site.pages | sort:"order" %}
-            {% for my_page in sorted_pages %}
-              {% if my_page.title %}
-              <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-                <a class="italic no-underline h4 font-smoothing" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-              </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-
-        <div class="container mx-auto px-2 mt-4 mb-2 clearfix header-text">
-          <h1 class="h0 inline-block py-2 mt-4 header-title">{{ site.title }}</h1>
-          <div class="clearfix mb-4 py-1">
+<div class="clearfix">
+    <div class="container mx-auto px-2 mt-4 mb-2 clearfix header-text">
+        <h1 class="h0 inline-block py-2 mt-4 header-title">{{ site.title }}</h1>
+        <div class="clearfix mb-4 py-1">
             <p class="h4 lh-condensed font-smoothing">{{ site.description }}</p>
             <div class="col-1 sm-width-full border-top-thick">
             </div>
-          </div>
-
         </div>
-      </header>
+
     </div>
+</div>
 
-    {% include footer.html %}
+{% include footer.html %}
 
-  </body>
+</body>
 
 </html>

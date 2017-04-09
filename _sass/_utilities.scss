@@ -206,3 +206,30 @@
   .mb-lg-4 { margin-bottom: $spacer-4; }
   .ml-lg-4 { margin-left: $spacer-4; }
 }
+
+// Logo sizing
+.logo-size {
+  width: 10%;
+}
+
+// Mobile tweaks
+@media (max-width: $breakpoint-lg) {
+  .mobile-menu {
+    text-align: center !important;
+    #logo-item {
+      text-align: center !important;
+    }
+  }
+  .mt-reset {
+    margin-top: 0 !important;
+  }
+  .mb-reset {
+    margin-bottom: 0 !important;
+  }
+  .mt-2-im {
+    margin-top: $spacer-2 !important;
+  }
+  .mt-3-im {
+    margin-top: $spacer-3 !important;
+  }
+}

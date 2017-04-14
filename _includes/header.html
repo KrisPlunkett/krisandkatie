@@ -7,23 +7,45 @@
        home
     </a>
   </div> -->
-  <div class="right-lg absolute-lg right-0 top-0 mobile-menu">
-    <ul class="mt-2 mr-2 mr-lg-3">
-      <li id="logo-item" class="inline-block block-lg text-right ml-1 ml-lg-0">
-        <a class="italic h4 bold no-underline" href="{{ site.baseurl }}/">
-          <img class="logo-size" alt="Home" src="{{ "/assets/kk.png" | prepend: full_base_url }}">
-        </a>
-      </li>
-      {% assign sorted_pages = site.pages | sort:"order" %}
-      {% for my_page in sorted_pages %}
-        {% if my_page.title %}
-        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-          <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
-            {{ my_page.title }}
-          </a>
-        </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
+
+    <div class="">
+        <ul class="">
+            <li class="">
+                <a class="" href="{{ site.baseurl }}/">
+                    <img class="icon-size" alt="home" src="{{ "/assets/kk.png" | prepend: full_base_url }}">
+                </a>
+            </li>
+            {% assign sorted_pages = site.pages | sort:"order" %}
+            {% for my_page in sorted_pages %}
+            {% if my_page.title %}
+            <li class="">
+                <a class="" href="{{ my_page.url | prepend: site.baseurl }}">
+                    {{ my_page.title }}
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+
+   <!-- OG nav -->
+  <!--<div class="right-lg absolute-lg right-0 top-0 mobile-menu">-->
+    <!--<ul class="mt-2 mr-2 mr-lg-3">-->
+      <!--<li id="logo-item" class="inline-block block-lg text-right ml-1 ml-lg-0">-->
+        <!--<a class="italic h4 bold no-underline" href="{{ site.baseurl }}/">-->
+          <!--<img class="icon-size" alt="home" src="{{ "/assets/kk.png" | prepend: full_base_url }}">-->
+        <!--</a>-->
+      <!--</li>-->
+      <!--{% assign sorted_pages = site.pages | sort:"order" %}-->
+      <!--{% for my_page in sorted_pages %}-->
+        <!--{% if my_page.title %}-->
+        <!--<li class="inline-block block-lg text-right ml-1 ml-lg-0">-->
+          <!--<a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">-->
+            <!--{{ my_page.title }}-->
+          <!--</a>-->
+        <!--</li>-->
+        <!--{% endif %}-->
+      <!--{% endfor %}-->
+    <!--</ul>-->
+  <!--</div>-->
 </header>

@@ -207,8 +207,17 @@
   .ml-lg-4 { margin-left: $spacer-4; }
 }
 
+// Menu stuff
+.center { text-align: center; }
+.inline { display: inline; }
+
 // Logo sizing
 .logo-size {
+  width: 40%;
+}
+
+// Nav
+.icon-size {
   width: 10%;
 }
 

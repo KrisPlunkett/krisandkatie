@@ -8,20 +8,22 @@
     </a>
   </div> -->
 
-    <div class="">
-        <ul class="">
-            <li class="">
-                <a class="" href="{{ site.baseurl }}/">
-                    <img class="icon-size" alt="home" src="{{ "/assets/kk.png" | prepend: full_base_url }}">
+    <div id="nav" class="center mt-2">
+        <ul class="list-reset">
+            <li class="mb-1">
+                <a class="no-underline" href="{{ site.baseurl }}/">
+                    <img class="icon-size" alt="home" src="{{ "/assets/crest.png" | prepend: full_base_url }}">
                 </a>
             </li>
             {% assign sorted_pages = site.pages | sort:"order" %}
             {% for my_page in sorted_pages %}
             {% if my_page.title %}
-            <li class="">
-                <a class="" href="{{ my_page.url | prepend: site.baseurl }}">
-                    {{ my_page.title }}
-                </a>
+            <li class="inline px-1">
+            {% if my_page.permalink == page.permalink %}
+                <a class="italic h3" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% else %}
+                <a class="no-underline italic h3" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% endif %}
             </li>
             {% endif %}
             {% endfor %}

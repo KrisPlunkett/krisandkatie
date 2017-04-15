@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Venue
-permalink: /venue/
+title: Celebrate
+permalink: /celebrate/
 order: 2
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Registry
-permalink: /registry/
-order: 4
+title: Gift
+permalink: /gift/
+order: 5
 ---
 
 You can buy everything 

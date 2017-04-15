@@ -2,7 +2,7 @@
 layout: page
 title: RSVP
 permalink: /rsvp/
-order: 1
+order: 6
 ---
 
 Some way for people to RSVP here

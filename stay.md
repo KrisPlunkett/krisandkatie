@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Accommodations
-permalink: /accommodations/
+title: Stay
+permalink: /stay/
 order: 3
 ---
 

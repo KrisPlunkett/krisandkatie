@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="container mx-auto px-2">
+
+    {% include page_heading.html %}
+
+    <div class="prose mb-4 py-2">
+        {{ content }}
+    </div>
+
+    <div class="mx-auto center col-12">
+        <p class="h1">Photos</p>
+        <ul class="list-reset">
+            {% assign static_files = site.static_files | sort:"title" %}
+            {% for image in static_files %}
+                {% if image.path contains 'assets/images/gallery' %}
+                <li class="inline center">
+                    <a class="no-underline-hover" href="{{ image.path }}">
+                        <img class="ml-2 mr-2 mt-1 mb-1 gallery-image" src="{{ image.path | prepend: full_base_url }}">
+                    </a>
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+    </div>
+</article>

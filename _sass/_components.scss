@@ -22,9 +22,9 @@ code { color: $color-code;
     margin-bottom: 1em;
     width: 100%;
 
-    // @media (min-width: $breakpoint-lg) {
-    //   width: (10 / 12 * 100%); // matches col-10
-    // }
+     //@media (min-width: $breakpoint-lg) {
+     //  width: (10 / 12 * 100%); // matches col-10
+     //}
 
   }
 
@@ -41,12 +41,15 @@ code { color: $color-code;
   }
 
   img {
+    max-height: 20em;
+    max-width: 10em;
+    //padding-left: 1em;
+    //padding-left: 10%;
+    //max-width: 75%;
 
-    max-width: 100%;
-
-    // @media (min-width: $breakpoint-lg) {
-    //   max-width: (12 / 10 * 100%); // make image fill width of container on desktop
-    // }
+     //@media (min-width: $breakpoint-lg) {
+     //  max-width: (12 / 10 * 100%); // make image fill width of container on desktop
+     //}
 
   }
 

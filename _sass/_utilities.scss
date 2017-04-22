@@ -51,6 +51,14 @@
   list-style: none;
 }
 
+.list-pad {
+  padding-right: 8px;
+}
+
+iframe {
+  max-width: 90vw;
+}
+
 /* Border utilities */
 .border-bottom-thick { border-bottom: 2px solid; border-color: currentColor; }
 .border-bottom-thin { border-bottom: 1px solid; border-color: currentColor; }

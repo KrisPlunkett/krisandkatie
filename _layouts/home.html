@@ -5,37 +5,23 @@
 
 <body>
 
-
-<div class="clearfix">
-    <div class="container mx-auto px-2 mb-2 align-middle center clearfix">
-        <h1 class="h0 inline-block py-2 header-title">{{ site.title }}</h1>
-        <p class="h2 lh-condensed font-smoothing">{{ site.description }}</p>
-        <img class="logo-size mt-2" alt="crest hero image" src="{{ "/assets/crest.png" | prepend: full_base_url }}">
-
-        <div class="center">
-            <ul class="list-reset mt-3">
-                {% assign sorted_pages = site.pages | sort:"order" %}
-                {% for my_page in sorted_pages %}
-                {% if my_page.title %}
-                <li class="inline px-1">
-                    <a class="italic no-underline h3" href="{{ my_page.url | prepend: site.baseurl }}">
-                        {{ my_page.title }}
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
-
-        <!--<h1 class="h0 inline-block py-2 mt-4 header-title mt-3-im">{{ site.title }}</h1>-->
-        <!--<div class="clearfix mb-4 py-1">-->
-            <!--<p class="h4 lh-condensed font-smoothing">{{ site.description }}</p>-->
-            <!--<div class="col-1 sm-width-full border-top-thick">-->
-            <!--</div>-->
+{% include header.html %}
+        <!--<div class="center">-->
+            <!--<ul class="list-reset mt-3">-->
+                <!--{% assign sorted_pages = site.pages | sort:"order" %}-->
+                <!--{% for my_page in sorted_pages %}-->
+                <!--{% if my_page.title %}-->
+                <!--<li class="inline px-1">-->
+                    <!--<a class="italic no-underline h3" href="{{ my_page.url | prepend: site.baseurl }}">-->
+                        <!--{{ my_page.title }}-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--{% endif %}-->
+                <!--{% endfor %}-->
+            <!--</ul>-->
         <!--</div>-->
-
-    </div>
-</div>
+    <!--</div>-->
+<!--</div>-->
 
 {% include footer.html %}
 

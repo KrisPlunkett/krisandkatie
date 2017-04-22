@@ -5,5 +5,13 @@ permalink: /celebrate/
 order: 2
 ---
 
-All about the ceremony and stuff
+![Riverwood Mansion](https://lh3.googleusercontent.com/WxQblGHQQpuTsmR6CG4JPEuRMWqKXoECJUSm7bs3EDjwUmIRAsVRX9tSul0Tuw7KhrTqFc0-lJVi4CEVmstot9FAQmW5XhFAbhlMyRRhswu_wiv3Ll8qXe59_xcbDXJK6w5hyGBBZjUTDASHEpvF_-FDQ4xI0s_oMgs3xDO4DhTinMXw9YZYfCurOFwK7JXFaU1yUhv4FyslITeaWsKfE0L0XrCzuoZ4JXFgtAa6VNkOzb7aRLWkoHMhpWV0wXn1LiXzPiJ3Y5HgMBz2y15r9hbKMKkrjzYbeyntQ-3hvI0oRW-nrb5OM5MsvxENn799KIFgjPmqzwkjpHs80DbysEMgXCEtq1lV3jLfuXBKff9t-QQ8HF0-Uh_405x0PSPtgyXBcbP7IAAJuvzxxDDKiBtTJe6fCQxbVmZeRQ29YyP_2DSSQsKUmf5YsrOBqi6TQrTCuf_SFU-LMB-lmKoiz9ORDxMKIh5KV08f1_jx1V_LcldG76KCNJukV6oL5kalzfAqs7i7LZ1Kfn_8pcKAJFFRV2Ra3u8yO1lnwCtCdfKuyfUVvNDEvFHfGx_UfoIROKrs-L71suozqV0LPTp44ZNUxWS3Pv2jMF52OkX88PkrlQQdfSHy026fMKOa7zviD19lfScEFLDsqoal73eXR8IWEN5KBHGkkCaY3fJ3yfA=w1168-h762-no)
 
+We can’t wait to celebrate with you!
+Friday September 29, 2017 at 6:00pm
+
+Ceremony & Reception
+    
+Riverwood Mansion
+
+_1833 Welcome Ln, Nashville, TN 37216_

@@ -10,8 +10,8 @@
 
     <div id="nav" class="center mt-2">
         <ul class="list-reset">
-            <li class="mb-1">
-                <p class="h1 lh-condensed font-smoothing">{{ site.title }}</p>
+            <li>
+                <h1 class="h1 lh-condensed font-smoothing mb-0 mt-0">{{ site.title }}</h1>
                 <a class="no-underline" href="{{ site.baseurl }}/">
                     <img class="icon-size" alt="home" src="{{ "/assets/crest.png" | prepend: full_base_url }}">
                 </a>
@@ -19,7 +19,7 @@
             {% assign sorted_pages = site.pages | sort:"order" %}
             {% for my_page in sorted_pages %}
             <li class="inline">
-                <a class="no-underline italic h3 list-pad" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                <a class="no-underline italic h3 mr-1" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
             </li>
             {% endfor %}
         </ul>

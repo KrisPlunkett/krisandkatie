@@ -13,14 +13,18 @@
             <li>
                 <h1 class="h1 lh-condensed font-smoothing mb-0 mt-0">{{ site.title }}</h1>
                 <a class="no-underline" href="{{ site.baseurl }}/">
-                    <img class="icon-size" alt="home" src="{{ "/assets/crest.png" | prepend: full_base_url }}">
+                    <img class="icon-size mb-1 mt-1" alt="home" src='{{ "/assets/updated_crest.png" | prepend: full_base_url }}'>
                 </a>
             </li>
+        </ul>
+        <ul class="list-reset nav-fix">
             {% assign sorted_pages = site.pages | sort:"order" %}
             {% for my_page in sorted_pages %}
-            <li class="inline">
-                <a class="no-underline italic h3 mr-1" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-            </li>
+                {% if my_page.name != 'style.css' %}
+                <li class="inline">
+                    <a class="no-underline h3 mr-2 menu-font" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                </li>
+                {% endif %}
             {% endfor %}
         </ul>
     </div>

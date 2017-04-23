@@ -3,10 +3,16 @@ layout: default
 ---
 <article class="container mx-auto px-2">
 
-    {% include page_heading.html %}
+    <div class="mt-2 mb-2 clearfix header-text mt-reset">
+        <p class="h2 inline-block mt-2-im">{{ page.title }}</p>
+        <div class="clearfix mb-2 mb-reset">
+            <div class="col-1 sm-width-full border-top-thick"></div>
+        </div>
+    </div>
+    <!--<img class="mt-1 mr-3 col-6 left mb-2" src="{{ page.img_src | prepend: full_base_url }}">-->
 
     <!--<div class="prose mb-4 py-2">-->
         <!--{{ content }}-->
     <!--</div>-->
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdg2zQ30k5O57db2USYU68PUPQSaTrSPS7sx2O-xnhUrtmNsQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe class="mt-2" src="https://docs.google.com/forms/d/e/1FAIpQLSdg2zQ30k5O57db2USYU68PUPQSaTrSPS7sx2O-xnhUrtmNsQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </article>

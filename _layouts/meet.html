@@ -5,24 +5,32 @@ layout: default
 
     {% include page_heading.html %}
 
-    <div class="prose mb-4 py-2">
+    <div class="prose mb-4 mb-reset">
         {{ content }}
     </div>
 
-    <div class="mx-auto center col-12">
-        <p class="h1">Photos</p>
+    <div class="clear mt-2 mb-2 header-text mt-reset">
+        <p class="h2 mt-2 inline-block">Photos</p>
+        <div class="clearfix mb-2">
+            <div class="col-1 sm-width-full border-top-thick"></div>
+        </div>
+    </div>
+    <div class="center container">
+        <!--<img class="mt-2 mb-2 col-8" src="{{ page.img_src }}">-->
         <ul class="list-reset">
             {% assign static_files = site.static_files | sort:"title" %}
             {% for image in static_files %}
-                {% if image.path contains 'assets/images/gallery' %}
-                <li class="inline center">
-                    <a class="no-underline-hover" href="{{ image.path }}">
-                        <img class="ml-2 mr-2 mt-1 mb-1 gallery-image" src="{{ image.path | prepend: full_base_url }}">
-                    </a>
-                </li>
-                {% endif %}
+            {% if image.path contains 'assets/images/gallery' %}
+            <li class="inline center">
+                <img class="py-1 px-1 col-8 mobile-image-fix" src="{{ image.path | prepend: full_base_url }}">
+            </li>
+            {% endif %}
             {% endfor %}
         </ul>
-
     </div>
+
+    <!--<div class="center clearfix mt-1">-->
+        <!--<h1 class="h1 clear mt-1">Photos</h1>-->
+
+    <!--</div>-->
 </article>

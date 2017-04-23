@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<article class="container mx-auto px-2">
+
+    <div class="mt-2 mb-2 clearfix header-text mt-reset">
+        <p class="h2 inline-block mt-2-im">{{ page.title }}</p>
+        <div class="clearfix mb-2 mb-reset">
+            <div class="col-1 sm-width-full border-top-thick"></div>
+        </div>
+    </div>
+
+    <div class="center">
+        <a class="no-underline" href="https://www.theregistryfranklin.com/istar.asp?a=46&grid=1-2875&pos=0">
+            <img class="mt-1 col-9 mobile-image-fix" src="{{ page.img_src | prepend: full_base_url }}">
+        </a>
+    </div>
+
+    <div class="center gift-images">
+        <ul class="list-reset">
+            {% assign static_files = site.static_files %}
+            {% for image in static_files %}
+            {% if image.path contains 'assets/images/gifts' %}
+                {% if image.name contains 'williams' %}
+                <li class="px-3 inline-block mt-4 mobile-mb-4">
+                    <a class="no-underline" href="https://secure.williams-sonoma.com/registry/300138997/registry-list.html?cm_ven=WedCh&bnrid=3117550&cm_ite=GiftGiver&cm_pla=WCSearchResults&cm_cat=Registry"><img src='{{ image.path | prepend: full_base_url }}'></a>
+                </li>
+                {% endif %}
+                {% if image.name contains 'crate' %}
+                <li class="px-3 inline-block mt-4">
+                    <a class="no-underline" href="https://www.crateandbarrel.com/gift-registry/katie-bomar-and-kris-plunkett/r5672938"><img src='{{ image.path | prepend: full_base_url }}'></a>
+                </li>
+                {% endif %}
+                {% if image.name contains 'target' %}
+                    <li class="px-3 inline-block mt-4">
+                        <a class="no-underline" href="https://www-secure.target.com/gift-registry/giftgiver?clkid=4b95602aN8f9864faf942e1cfbb3ae031&lnm=81938&afid=The%20Knot%2C%20Inc.%20and%20Subsidiaries&ref=tgt_adv_xasd0002&registryId=506ec12172444b25a80654483d396a39#1"><img src='{{ image.path | prepend: full_base_url }}'></a>
+                    </li>
+                {% endif %}
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</article>

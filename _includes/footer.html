@@ -23,3 +23,15 @@
     ga('send', 'pageview');
 
 </script>
+
+<!--Event for Gifts -->
+<script>
+function handleOutboundLinkClicks(link) {
+    console.log('clicked ' + link);
+    ga('send', 'event', {
+        eventCategory: 'Outbound Link',
+        eventAction: 'click',
+        eventLabel: link
+    });
+}
+</script>

@@ -6,13 +6,13 @@ order: 4
 img_src: /assets/images/pages/play.jpg
 ---
 
-Martin’s BBQ
+Martin’s BBQ (our first date!)
 
 Hattie B’s Hot Chicken
 
 Taqueria del Sol
 
-Donut Den
+Donut Den (family favorite)
 
 Jeni’s Ice Cream
 
@@ -20,7 +20,7 @@ Jeni’s Ice Cream
 
 Moto
 
-3rd & Lindsley 
+3rd & Lindsley (great live music)
 
 The Ryman Auditorium
 

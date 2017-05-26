@@ -6,10 +6,10 @@ order: 3
 img_src: /assets/images/pages/stay.jpg
 ---
 
-[Hilton Garden Inn](http://hiltongardeninn3.hilton.com/en/hotels/tennessee/hilton-garden-inn-nashville-brentwood-BNABRGI/index.html)     
+[Hilton Garden Inn](http://hiltongardeninn.hilton.com/en/gi/groups/personalized/B/BNABRGI-BOMARW-20170927/index.jhtml)     
 217 Centerview Dr    
 Brentwood, TN 37027   
-_Room block under “Bomar”_
+_Room block under “Bomar Plunkett Wedding”_
 
 <span class="custom-spacer">
     <br/>

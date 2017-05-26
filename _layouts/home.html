@@ -15,7 +15,17 @@
 <div class="center mt-2">
     <img class="home-image col-5" src='{{ "/assets/images/pages/home_crop.jpg" | prepend: full_base_url }}'>
     <p id="date" class="h3 font-smoothing italic mt-1">Friday, September 29th, 2017</p>
+    <p id="mobile-counter" class="h3 font-smoothing italic"><span id="mobile-days-until"></span> days to go!</p>
 </div>
+
+<script>
+    var now = new Date(),
+            wedding = new Date('9 29 2017'),
+            days = Math.floor((wedding - now) / (24 * 3600 * 1000)),
+            daysUntil = document.getElementById('mobile-days-until');
+
+    daysUntil.innerHTML = days;
+</script>
 
 {% include footer.html %}
 

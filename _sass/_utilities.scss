@@ -226,8 +226,18 @@ iframe {
 
 .menu-font {
   font-variant: all-small-caps;
-  font-size: 2em;
+  font-size: 2.5em;
   line-height: initial;
+}
+
+#counter {
+  position: fixed;
+  top: $spacer-2;
+  right: $spacer-2;
+}
+
+#mobile-counter {
+  visibility: hidden;
 }
 
 // Mobile tweaks
@@ -264,9 +274,15 @@ iframe {
     font-size: 2em;
   }
   .menu-font {
-    font-size: 1.7em;
+    font-size: 2em;
+    margin-right: 0.25em !important;
   }
-
+  #counter {
+    visibility: hidden;
+  }
+  #mobile-counter {
+    visibility: visible;
+  }
 }
 
 // Image Gallery

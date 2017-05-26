@@ -1,3 +1,5 @@
+<p id="counter" class="h3 font-smoothing italic"><span id="days-until"></span> days to go!</p>
+
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -18,4 +20,13 @@ function handleOutboundLinkClicks(link) {
         eventLabel: link
     });
 }
+</script>
+
+<script>
+    var now = new Date(),
+            wedding = new Date('9 29 2017'),
+            days = Math.floor((wedding - now) / (24 * 3600 * 1000)),
+            daysUntil = document.getElementById('days-until');
+
+    daysUntil.innerHTML = days;
 </script>

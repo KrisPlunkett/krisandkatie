@@ -12,4 +12,4 @@ Six o'clock in the evening
 1833 Welcome Ln    
 Nashville, TN 37216
 
-_Ceremony and reception held at the Mansion_
+_Please remember to allow extra travel time for rush hour traffic in Nashville._

@@ -9,7 +9,6 @@ img_src: /assets/images/pages/stay.jpg
 [Hilton Garden Inn](http://hiltongardeninn.hilton.com/en/gi/groups/personalized/B/BNABRGI-BOMARW-20170927/index.jhtml)     
 217 Centerview Dr    
 Brentwood, TN 37027   
-_Room block under “Bomar Plunkett Wedding”_
 
 <span class="custom-spacer">
     <br/>

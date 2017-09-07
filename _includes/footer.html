@@ -25,7 +25,7 @@ function handleOutboundLinkClicks(link) {
 <script>
     var now = new Date(),
             wedding = new Date('9 29 2017'),
-            days = Math.floor((wedding - now) / (24 * 3600 * 1000)),
+            days = Math.floor((wedding - now) / (24 * 3600 * 1000)) + 1,
             daysUntil = document.getElementById('days-until');
 
     daysUntil.innerHTML = days;
